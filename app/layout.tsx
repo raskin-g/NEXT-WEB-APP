@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Bricolage_Grotesque } from "next/font/google";
+import Header from "@/components/partials/Header";
+import Footer from "@/components/partials/Footer";
 
 const bricolageSans = Bricolage_Grotesque({
   variable: "--font-custom-sans",
@@ -22,7 +24,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${bricolageSans.variable} ${bricolageMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col"><Header/>{children}<Footer/></body>
     </html>
     
   );
