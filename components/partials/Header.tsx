@@ -10,7 +10,7 @@ export default function Header(){
             <Link href="/">
                 <Image src={"/logo-1.jpeg"} className="size-15" height={80} width={80} alt="Logo"/>
             </Link>
-            <form className="flex w-xl items-center justify-end">
+            <form className="flex w-xl items-center justify-end" action="/search">
                 <input type="search" className="w-full p-3 rounded-full border border-gray-200 shadow-lg bg-blue-50"
                 placeholder="Enter your seach product name..." />
             </form>
