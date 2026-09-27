@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default async function Footer(){
     return(<>
-    <footer className="bg-white border-t botder-t-gray-100 shadow-[0_-8px_30px_#f0f7fe]">
+    <footer className="bg-gray-50 border-t botder-t-gray-100 shadow-[0_-8px_30px_#f0f7fe]">
   <div className="mx-auto px-4 pt-16 pb-6 sm:px-6 lg:px-10 lg:pt-24">
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
       <div>

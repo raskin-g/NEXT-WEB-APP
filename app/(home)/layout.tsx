@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "../globals.css";
 import { Bricolage_Grotesque } from "next/font/google";
 import Header from "@/components/partials/Header";
 import Footer from "@/components/partials/Footer";
